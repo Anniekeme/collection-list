@@ -1,0 +1,88 @@
+@import url("https://fonts.googleapis.com/css2?family=Baskervville+SC&display=swap");
+body {
+    font-family: "Baskervville SC", serif;
+    background-color: #d8dae2;
+    margin: 0;
+    padding: 20px;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+h1 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 20px;
+    text-align: left;
+}
+
+.tags {
+    margin-bottom: 30px;
+    text-align: left;
+}
+
+.tag {
+    display: inline-block;
+    background-color: #fff;
+    padding: 10px 15px;
+    margin: 0 5px;
+    border-radius: 5px;
+    font-size: 14px;
+    cursor: pointer;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.collections {
+    display: flex;
+    justify-content: space-between;
+}
+
+.collection {
+    background-color: #fff;
+    border-radius: 10px;
+    padding: 15px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    width: 30%;
+    position: relative;
+}
+
+.collection img {
+    width: 100%;
+    border-radius: 10px;
+}
+
+.sub-images {
+    display: flex;
+    margin-top: 10px;
+}
+
+.sub-images img {
+    width: 32%;
+    margin-right: 3%;
+    border-radius: 10px;
+}
+
+.sub-images img:last-child {
+    margin-right: 0;
+}
+
+.title {
+    font-size: 18px;
+    font-weight: bold;
+    margin-top: 10px;
+}
+
+.count {
+    position: absolute;
+    bottom: 15px;
+    right: 15px;
+    font-size: 14px;
+    color: #666;
+}
